@@ -1,0 +1,62 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240102/pngtree-seamless-pattern-of-cartoon-kittens-playful-shorthaired-cats-in-a-vector-image_13903212.png);
+    background-size: cover; /* Escala la imagen para cubrir toda la página */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+
+}
+
+.container {
+  position: relative;
+  top: 100px;
+
+  background-color: gray;
+    display: flex;
+    align-items: center;
+  }
+
+  .texto {
+    color: white;
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  .imagen {
+    flex: 1;
+    text-align: center;
+  }
+
+  .imagen img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .container2 {
+    position: relative;
+    top: 200px;
+  
+    background-color: gray;
+      display: flex;
+      align-items: center;
+    }
+  
+    .texto {
+      color: white;
+      flex: 1;
+      padding-right: 20px;
+    }
+  
+    .imagen {
+      flex: 1;
+      text-align: center;
+    }
+  
+    .imagen img {
+      max-width: 100%;
+      height: auto;
+    }
+
+
+  
