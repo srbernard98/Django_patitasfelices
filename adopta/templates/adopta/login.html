@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de Sesión</title>
-    <link rel="stylesheet" href="./my_css/aa.css"> <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'adopta/my_css/aa.css'%}"> <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'adopta/css/bootstrap.min.css'%}"> <!-- Bootstrap CSS -->
 </head>
 <body> 
     <!-- Login Form -->
@@ -53,7 +54,7 @@
     </div>
 
     <!-- Bootstrap JS -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'adopta/js/bootstrap.bundle.min.js'%}"></script>
 
     <!-- Custom JavaScript for Form Validation -->
     <script>
