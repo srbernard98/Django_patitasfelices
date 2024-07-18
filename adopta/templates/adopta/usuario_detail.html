@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h2>Detalle del Usuario</h2>
+  <p>Nombre: {{ object.nombre }}</p>
+  <p>Apellido: {{ object.apellido }}</p>
+  <p>Email: {{ object.email }}</p>
+  <p>Dirección: {{ object.dirección }}</p>
+  <p>Teléfono: {{ object.teléfono }}</p>
+  <p>Tipo de Usuario: {{ object.tipo_usuario }}</p>
+  <a href="{% url 'usuario_update' object.pk %}" class="btn btn-warning">Editar</a>
+  <a href="{% url 'usuario_delete' object.pk %}" class="btn btn-danger">Eliminar</a>
+{% endblock %}
