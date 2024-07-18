@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopcion</title>
-    <link rel="stylesheet" href="./my_css/bb.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'adopta/my_css/bb.css'%}">
+    <link rel="stylesheet" href="{% static 'adopta/css/bootstrap.min.css'%}">
 </head>
 <body>
   <header data-bs-theme="dark">
@@ -35,13 +36,14 @@
       </nav>
     </header>
 
+
     <div class="container mt-5" id="card-container">
         <div class="row">
             <!-- Tarjetas se generarán aquí -->
         </div>
     </div>
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'adopta/js/bootstrap.bundle.min.js'%}"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function(){
